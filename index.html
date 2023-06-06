@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHADESE YOGA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- LOADING WEBPAGE -->          
+    <div id="load">
+        <img src="loading-icon.png" alt="" id="loading-img" class="rotate-photo">
+        <p id="loading">یه نفس عمیق بکش</p>
+    </div>
+        
+    <!-- EVERYTHING EXCEPT LOADING -->
+    <div id="main">
+        <!-- MOVING BALL IN WEB PAGE -->
+        <div class="ball" id="myBall"></div>
+        <!-- SIED MENU -->
+        <!-- BUGRER MENU -->
+        <div class="box" onclick="handleMenu()">
+            <div class="btn not-active">
+                <span id="menu-burguer"></span>
+                <span id="menu-burguer"></span>
+                <span id="menu-burguer"></span>
+            </div>
+        </div>
+
+        <div id="home-link">
+            <a href="./index.html"><img src="./loading-icon.png" alt="home" id="img-link"></a>
+        </div>
+
+        <!-- CONTENT OF MENU -->
+        <div class="sidenav" id="mySidenav">
+            <a class="nav-links" href="#">خانه</a>
+            <a class="nav-links" href="#">ورود</a>
+            <a class="nav-links" href="#">محدثه</a>
+            <a class="nav-links" href="#">کلاس ها</a>
+            <a class="nav-links" href="#">رزرو کلاس</a>
+            <a class="nav-links" href="#">قوانین</a>
+            <a class="nav-links" href="#">ارتباط با ما</a>
+        </div>
+        
+        <!-- THREE MAGICAL WORD -->
+        <h2 class="centerWords">
+            <span id="three-words1">آب</span>
+            <span id="three-words2">جاری</span>
+            <span id="three-words3">باش</span>
+            <div class="centerBtn">
+                <a href="/about.html" id="yogaWithM">یوگا با محدثه</a>
+            </div>
+        </h2>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
