@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOHADESE YOGA</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="ball"></div>
+    <!-- LOADING WEBPAGE -->          
+    <div id="load">
+        <!-- HERE JUST ADD AN SMOOTH STYLING LATER -->
+    </div>
+    <!-- EVERYTHING EXCEPT LOADING -->
+    <div id="main">
+        <!-- BUGRER MENU -->
+        <div class="box" onclick="handleMenu()">
+            <div class="btn not-active">
+                <span id="menu-burguer"></span>
+                <span id="menu-burguer"></span>
+                <span id="menu-burguer"></span>
+            </div>
+        </div>
+        
+        <!-- HOME LINK PHOTO -->
+        <div id="home-link">
+            <a href="./index.html"><img src="../loading-icon.png" alt="home" id="img-link"></a>
+        </div>
+
+        <!-- CONTENT OF MENU -->
+        <div class="sidenav" id="mySidenav">
+            <a class="nav-links" href="../index.html">خانه</a>
+            <a class="nav-links" href="../index.html">ورود</a>
+            <a class="nav-links" href="#">محدثه</a>
+            <a class="nav-links" href="#container2">کلاس ها</a>
+            <a class="nav-links" href="../reserve/reserve.html">رزرو کلاس</a>
+            <a class="nav-links" href="../terms/terms.html">قوانین</a>
+            <a class="nav-links" href="../contanct/contact.html">ارتباط با ما</a>
+        </div>
+
+        <!-- MAIN CONTENT OF THE PAGE -->        
+        <div class="content">
+            <!-- DARK SIDE -->
+            <h1>درباره محدثه</h1>
+            <div id="img1-container"><img src="./img/about-img.png" alt="" id="img1"></div>
+            
+            <div class="text-container">
+                <p>محدثه تلاش می‌کند آموزش‌های یوگا را برای همه کسانی که به دنبال یک پاسخ کامل برای ذهن و بدنشان هستند فراهم کند. پاسخی که خود محدثه بعد از یک تصادف سنگین دریافت کرد. او ورزشکار سابق در رشته شنا بود تا اینکه حادثه‌ای مسیر زندگی‌اش را عوض کرد. بعد از این تصادف تا ۱۲ ماه مجبور به استراحت مطلق شد. در این مدت توانایی‌های فیزیکی خود را تقریبا به طور کامل از دست داد و به صورت معجزه آسایی از قطع نخاع در امان ماند. بعد از این ماجرا با یوگا آشنا شد. رشته‌ای که به گفته خودش کامل‌ترین پاسخ برای نیازهای روح و جسمش بود. بعد از دریافت این پرتو از نور و انرژی تصمیم گرفت آن را با دیگر کسانی که روح خود را تشنه این پرتو میبینند به اشتراک بگذارد.</p>
+            </div>
+
+            <div class="line-container">
+                <div class="vertical-line"></div>
+            </div>
+
+      <!--       <div class="btn-container">
+                <button id="classBtn"><a href="#container3">یوگا با محدثه</a></button>
+            </div> -->
+        </div>
+        <div class="titleText">
+            <div class="parallax">
+                <h2>یوگا را با محدثه شروع کنید</h2>
+            </div>
+        </div>
+        
+        <!-- LIGHT SIDE -->
+        <div class="classContent">
+            <div id="container1">
+                <!-- ARROW DOWN -->
+                <div class="arrow-container">
+                    <div class="arrow arrow-first"></div>
+                    <div class="arrow arrow-second"></div>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <div id="container2">
+                <div class="button-holder">
+                    <button class="class-buttons active" onclick="toggleContent(0)">مبتدی</button>
+                    <button class="class-buttons" onclick="toggleContent(1)">متوسط</button>
+                    <button class="class-buttons" onclick="toggleContent(2)">پیشرفته</button>
+                </div>
+
+                <p class="class-contents active">محتوای متنی هر کلاس بهصورت جداگانه اینجا قرار خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته با خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته باشد محتوای متنی هر کلاس بهصورت جداگانه اینجا قرار خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته باشد</p>
+                
+                <p class="class-contents">محتوای متنی هر کلاس بهصورت جداگانه اینجا قرار خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته با خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته باشد محتوای متنی هر کلاس بهصورت جداگانه اینجا قرار خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته باشد</p>
+                
+                <p class="class-contents">محتوای متنی هر کلاس بهصورت جداگانه اینجا قرار خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته با خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته باشد محتوای متنی هر کلاس بهصورت جداگانه اینجا قرار خواهد گرفات انتظار میرود هر کلاس تقریبا ۵ خ محتوا داشته باشد</p>
+            </div>
+
+            <div id="container3">
+                <a>رزرو کلاس های حضوری</a>
+            </div>
+            <div class="faq">
+            <div class="accordion-menu">
+                <ul>
+                    <li>
+                        <input type="checkbox" checked>
+                        <h3><i class="fas fa-code"></i>کلاس‌ها به صورت آنلاین برگزار می‌شوند یا حضوری ؟</h3>
+                        <p>هر دو صورت برای اطلاع از شرایط کلاس(لینک به کلاس ها) های آنلاین یا کلاس‌های (لینک به رزرو) کلیک کنید</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked>
+                        <h3><i class="fas fa-question"></i>کلاس‌ها به صورت زنده پخش می‌شوند ؟</h3>
+                        <p>خیر به علت محدودیت های و مشکلات اینترنت برای استریم کلاس‌ها و زندگی پر مشغله کنونی برای شما پرتوجویان فرصتی فراهم شده است تا بتوانید در هر زمان که مایل هستید کلاس‌ها را تماشا کنید. البته ویدیو ها کلاس ها به صورت ماهانه ضبط و بارگذاری می‌شوند و همگی به روز و حاوی آخرین نکات استاد هستند.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked>
+                        <h3><i class="fas fa-laugh"></i>مدت زمان کلاس ها و تعداد جلسات هر دوره چقدر است ؟</h3>
+                        <p>هر جلسه کلاس ۱ ساعت می‌باشد و هر دوره شامل ۸ جلسه در ماه می‌باشد.</p>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>       
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="about.js"></script>
+</body>
+</html>
